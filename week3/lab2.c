@@ -1,0 +1,45 @@
+#include <stdio.h>
+
+int main() {
+    char supplierName[50];
+    float price;
+    float budget;
+    int registered;
+    int documentsComplete;
+
+    // Input section
+    printf("Enter supplier name: ");
+    scanf("%49s", supplierName);
+
+    printf("Enter tender price: ");
+    scanf("%f", &price);
+
+    printf("Enter available budget: ");
+    scanf("%f", &budget);
+
+    printf("Is supplier registered? (1=Yes, 0=No): ");
+    scanf("%d", &registered);
+
+    printf("Are all documents complete? (1=Yes, 0=No): ");
+    scanf("%d", &documentsComplete);
+
+    // Decision-making section
+    if (registered == 0 || documentsComplete == 0) {
+        printf("\nSupplier: %s\n", supplierName);
+        printf("Status: Disqualified\n");
+    }
+    else if (price > budget) {
+        printf("\nSupplier: %s\n", supplierName);
+        printf("Status: Disqualified\n");
+    }
+    else {
+        printf("\nSupplier: %s\n", supplierName);
+        printf("Status: Qualified\n");
+
+        // Preferred Supplier logic (for demonstration, assume this supplier is the lowest price)
+        // In a real program, you would compare prices across multiple suppliers.
+        printf("Note: Supplier %s is the Preferred Supplier (lowest price).\n", supplierName);
+    }
+
+    return 0;
+}
