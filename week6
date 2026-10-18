@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <string.h>
+
+#define NUM_EMPLOYEES 5
+#define NUM_DEPARTMENTS 5
+#define NUM_VEHICLES 4
+
+int main() {
+    int i, pass;
+
+    /* 2. Declare and initialise arrays */
+ double salaries[NUM_EMPLOYEES] = {8500.00, 12000.50, 6400.00, 15000.00, 9800.75};
+double budgets[NUM_DEPARTMENTS] = {250000.00, 180000.50, 320000.00, 95000.00, 410000.75};
+    char departments[NUM_DEPARTMENTS][20] = {"Finance", "Roads", "Water", "Parks", "Housing"};
+char vehicles[NUM_VEHICLES][15];
+
+    /* 3. Access elements using indexes */
+    printf("=== Accessing elements ===\n");
+printf("First salary (index 0): %.2f\n", salaries[0]);
+ printf("Last salary (index %d): %.2f\n", NUM_EMPLOYEES - 1, salaries[NUM_EMPLOYEES - 1]);
+    salaries[2] = 6900.00;   /* change the third salary */
+printf("Third salary after change: %.2f\n", salaries[2]);
+
+    /* 4. Process an array using a loop */
+    double total = 0.0;
+    for (i = 0; i < NUM_EMPLOYEES; i++) {
+        total = total + salaries[i];
+    }
+    printf("\n=== Processing with a loop ===\n");
+    printf("Total salary: %.2f\n", total);
+    printf("Average salary: %.2f\n", total / NUM_EMPLOYEES);
+
+    /* 5. Search an array (linear search) */
+    double target = 15000.00;
+    int found = -1;
+    for (i = 0; i < NUM_EMPLOYEES; i++) {
+        if (salaries[i] == target) {
+            found = i;
+            break;
+        }
+    }
+ printf("\n=== Searching ===\n");
+    if (found != -1) {
+        printf("Salary %.2f found at index %d\n", target, found);
+} else {
+        printf("Salary %.2f not found\n", target);
+    }
+
+    /* 6. Sort an array (bubble sort, smallest to largest) */
+    for (pass = 0; pass < NUM_EMPLOYEES - 1; pass++) {
+        for (i = 0; i < NUM_EMPLOYEES - 1 - pass; i++) {
+            if (salaries[i] > salaries[i + 1]) {
+                double temp = salaries[i];
+                salaries[i] = salaries[i + 1];
+                salaries[i + 1] = temp;
+            }
+        }
+    }
+    printf("\n=== Salaries sorted (smallest to largest) ===\n");
+    for (i = 0; i < NUM_EMPLOYEES; i++) {
+        printf("%.2f\n", salaries[i]);
+    }
+
+    /* 8. Department budgets */
+printf("\n=== Department budgets ===\n");
+    for (i = 0; i < NUM_DEPARTMENTS; i++) {
+        printf("%-10s %.2f\n", departments[i], budgets[i]);
+}
+
+    /* 9. Vehicle registration numbers (text, so an array of strings) */
+strcpy(vehicles[0], "N 1234 W");
+ strcpy(vehicles[1], "N 5678 W");
+    strcpy(vehicles[2], "N 9012 W");
+    strcpy(vehicles[3], "N 3456 W");
+
+    printf("\n=== Vehicle registrations ===\n");
+    for (i = 0; i < NUM_VEHICLES; i++) {
+        printf("Vehicle %d: %s\n", i + 1, vehicles[i]);
+    }
+
+    return 0;
+}
