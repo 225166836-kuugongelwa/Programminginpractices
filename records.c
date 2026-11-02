@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "records.h"
+#include "pointers.h"
 
 /* ---------- Small input helpers (only used in this file) ---------- */
 
@@ -299,4 +300,67 @@ int loadEmployees(Employee list[], int max, const char *filename)
     fclose(fp);
 
     return (int)loaded;
+}
+
+/* ---------- Week 12: pointer-based menu helpers ---------- */
+
+/* Menu option: ask for an ID and a new salary, find the employee,
+   update the REAL record through its address, then show it. */
+void updateEmployeeSalaryMenu(Employee list[], int count)
+{
+    int id;
+    double newSalary;
+    Employee *found;
+
+    printf("\n--- Update Employee Salary ---\n");
+    if (count == 0) {
+        printf("No employees stored yet. Add or load employees first.\n");
+        return;
+    }
+
+    id = readInt("  Employee ID: ");
+    found = findEmployee(list, count, id);
+
+    if (found == NULL) {
+        printf("No employee with ID %d was found.\n", id);
+        return;
+    }
+
+    printf("  Found: %s (%s), current salary N$%.2f\n",
+           found->name, found->department, found->salary);
+
+    do {
+        newSalary = readDouble("  New salary (N$): ");
+        if (newSalary < 0) {
+            printf("  A salary cannot be negative.\n");
+        }
+    } while (newSalary < 0);
+
+    updateSalary(found, newSalary);
+
+    printf("Salary updated. The record now reads:\n");
+    printf("  %d | %s | %s | N$%.2f\n",
+           found->id, found->name, found->department, found->salary);
+}
+
+/* Copy every salary into a plain double array, then use the Part C
+   array functions on it. */
+void salaryStatistics(const Employee list[], int count)
+{
+    double salaries[MAX_RECORDS];
+    int i;
+
+    printf("\n--- Salary Statistics ---\n");
+    if (count == 0) {
+        printf("No employees stored yet.\n");
+        return;
+    }
+
+    for (i = 0; i < count; i++) {
+        salaries[i] = list[i].salary;
+    }
+
+    displaySalaries(salaries, count);
+    printf("Highest salary: N$%.2f\n", findHighest(salaries, count));
+    printf("Average salary: N$%.2f\n", calculateAverage(salaries, count));
 }

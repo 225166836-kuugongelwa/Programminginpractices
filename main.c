@@ -1,4 +1,4 @@
-/* main.c - MFMS Week 11: store and display the five record types */
+/* main.c - MFMS Week 12: Week 11 records plus pointer-based salary updates */
 #include <stdio.h>
 #include "records.h"
 
@@ -24,6 +24,8 @@ static void showMenu(int employeeCount, int supplierCount, int assetCount,
     printf("  10. Display Projects\n");
     printf("  11. Save Employees to file\n");
     printf("  12. Load Employees from file\n");
+    printf("  13. Update Employee Salary\n");
+    printf("  14. Salary Statistics (highest and average)\n");
     printf("  0.  Exit\n");
     printf("Choose an option: ");
 }
@@ -102,11 +104,17 @@ int main(void)
                 printf("Nothing was loaded. Your current employees were not changed.\n");
             }
             break;
+        case 13:
+            updateEmployeeSalaryMenu(employees, employeeCount);
+            break;
+        case 14:
+            salaryStatistics(employees, employeeCount);
+            break;
         case 0:
             printf("Goodbye!\n");
             break;
         default:
-            printf("Invalid option. Please choose 0 to 12.\n");
+            printf("Invalid option. Please choose 0 to 14.\n");
         }
     }
 

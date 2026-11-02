@@ -16,6 +16,32 @@ Employees: 0 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
+  0.  Exit
+Choose an option: 
+--- Update Employee Salary ---
+No employees stored yet. Add or load employees first.
+
+==============================================
+  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
+==============================================
+Employees: 0 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
+
+  1.  Add Employee
+  2.  Display Employees
+  3.  Add Supplier
+  4.  Display Suppliers
+  5.  Add Asset
+  6.  Display Assets
+  7.  Add Budget
+  8.  Display Budgets
+  9.  Add Project
+  10. Display Projects
+  11. Save Employees to file
+  12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
 --- Add Employee ---
@@ -38,6 +64,8 @@ Employees: 1 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
 --- Add Employee ---
@@ -60,6 +88,8 @@ Employees: 2 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
 --- Add Employee ---
@@ -82,279 +112,8 @@ Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Supplier ---
-  ID:   Name:   Email:   Phone:   Town: Supplier added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 1 | Assets: 0 | Budgets: 0 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Supplier ---
-  ID:   Name:   Email:   Phone:   Town: Supplier added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 2 | Assets: 0 | Budgets: 0 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Supplier ---
-  ID:   Name:   Email:   Phone:   Town: Supplier added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 0 | Budgets: 0 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Asset ---
-  ID:   Description:   Value (N$):   Date acquired:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026): Asset added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 1 | Budgets: 0 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Asset ---
-  ID:   Description:   Value (N$):   Date acquired:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026): Asset added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 2 | Budgets: 0 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Asset ---
-  ID:   Description:   Value (N$):   Date acquired:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026): Asset added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 0 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Budget ---
-  Department:   Amount allocated (N$):   Amount spent (N$): Budget added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 1 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Budget ---
-  Department:   Amount allocated (N$):   Amount spent (N$): Budget added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 2 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Budget ---
-  Department:   Amount allocated (N$):   Amount spent (N$): Budget added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 0
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Project ---
-  ID:   Title:   Budget (N$):   Start date:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026):   End date:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026): Project added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 1
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Project ---
-  ID:   Title:   Budget (N$):   Start date:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026):   End date:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026): Project added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 2
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: 
---- Add Project ---
-  ID:   Title:   Budget (N$):   Start date:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026):   End date:
-    Day (1-31):     Month (1-12):     Year (e.g. 2026): Project added.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
 --- Employees (3) ---
@@ -366,7 +125,7 @@ ID     Name                 Department       Salary (N$)
 ==============================================
   MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
 ==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
+Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
 
   1.  Add Employee
   2.  Display Employees
@@ -380,18 +139,19 @@ Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
---- Suppliers (3) ---
-ID     Name                 Email                     Phone          Town        
-1      Namib Supplies       info@namibsupplies.na     0611234567     Windhoek    
-2      Coastal Traders      sales@coastal.na          0644556677     Swakopmund  
-3      Northern Hardware    orders@northern.na        0651112233     Oshakati    
+--- Update Employee Salary ---
+  Employee ID:   Found: Simon (Roads), current salary N$17200.00
+  New salary (N$): Salary updated. The record now reads:
+  1002 | Simon | Roads | N$19000.00
 
 ==============================================
   MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
 ==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
+Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
 
   1.  Add Employee
   2.  Display Employees
@@ -405,18 +165,17 @@ Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
---- Assets (3) ---
-ID     Description                   Value (N$) Acquired    
-501    Bulldozer                      850000.00 15/03/2022
-502    Laptop                          15000.50 02/07/2024
-503    Truck                          420000.00 30/11/2023
+--- Update Employee Salary ---
+  Employee ID: No employee with ID 9999 was found.
 
 ==============================================
   MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
 ==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
+Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
 
   1.  Add Employee
   2.  Display Employees
@@ -430,18 +189,19 @@ Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
---- Budgets (3) ---
-Department                Allocated          Spent        Balance
-Finance                   500000.00      320000.00      180000.00
-Roads                    1200000.00     1350000.00     -150000.00  <-- OVERSPENT
-Water                     800000.00      410000.00      390000.00
+--- Update Employee Salary ---
+  Employee ID:   Found: Anna (Water), current salary N$21000.75
+  New salary (N$): Salary updated. The record now reads:
+  1003 | Anna | Water | N$22000.00
 
 ==============================================
   MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
 ==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
+Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
 
   1.  Add Employee
   2.  Display Employees
@@ -455,18 +215,19 @@ Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
---- Projects (3) ---
-ID     Title                        Budget (N$) Start        End         
-901    Road Upgrade                  2500000.00 01/02/2026 31/12/2026
-902    Water Pipeline                1800000.00 15/03/2026 30/11/2027
-903    Library Roof                   350000.00 01/06/2026 15/09/2026
+--- Update Employee Salary ---
+  Employee ID:   Found: Anna (Water), current salary N$22000.00
+  New salary (N$): Salary updated. The record now reads:
+  1003 | Anna | Water | N$23500.00
 
 ==============================================
   MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
 ==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
+Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
 
   1.  Add Employee
   2.  Display Employees
@@ -480,13 +241,21 @@ Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
-Choose an option: Saved 3 employee(s) to employees.dat.
+Choose an option: 
+--- Salary Statistics ---
+  Employee 1: N$18500.50
+  Employee 2: N$19000.00
+  Employee 3: N$23500.00
+Highest salary: N$23500.00
+Average salary: N$20333.50
 
 ==============================================
   MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
 ==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
+Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
 
   1.  Add Employee
   2.  Display Employees
@@ -500,58 +269,20 @@ Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
-  0.  Exit
-Choose an option: Invalid option. Please choose 0 to 12.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
-  0.  Exit
-Choose an option: Loaded 3 employee(s) from employees.dat.
-
-==============================================
-  MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
-==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
-
-  1.  Add Employee
-  2.  Display Employees
-  3.  Add Supplier
-  4.  Display Suppliers
-  5.  Add Asset
-  6.  Display Assets
-  7.  Add Budget
-  8.  Display Budgets
-  9.  Add Project
-  10. Display Projects
-  11. Save Employees to file
-  12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: 
 --- Employees (3) ---
 ID     Name                 Department       Salary (N$)
 1001   Maria                Finance             18500.50
-1002   Simon                Roads               17200.00
-1003   Anna                 Water               21000.75
+1002   Simon                Roads               19000.00
+1003   Anna                 Water               23500.00
 
 ==============================================
   MUNICIPAL FINANCIAL MANAGEMENT SYSTEM (MFMS)
 ==============================================
-Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
+Employees: 3 | Suppliers: 0 | Assets: 0 | Budgets: 0 | Projects: 0
 
   1.  Add Employee
   2.  Display Employees
@@ -565,5 +296,7 @@ Employees: 3 | Suppliers: 3 | Assets: 3 | Budgets: 3 | Projects: 3
   10. Display Projects
   11. Save Employees to file
   12. Load Employees from file
+  13. Update Employee Salary
+  14. Salary Statistics (highest and average)
   0.  Exit
 Choose an option: Goodbye!

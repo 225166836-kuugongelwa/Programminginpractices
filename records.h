@@ -71,4 +71,8 @@ void displayProjects(const Project list[], int count);
 int saveEmployees(const Employee list[], int count, const char *filename);
 int loadEmployees(Employee list[], int max, const char *filename);
 
+/* Week 12: menu helpers that use pointers (see pointers.c) */
+void updateEmployeeSalaryMenu(Employee list[], int count);
+void salaryStatistics(const Employee list[], int count);
+
 #endif

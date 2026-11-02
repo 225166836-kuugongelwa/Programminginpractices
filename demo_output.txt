@@ -1,0 +1,42 @@
+=== Part A: pointer warm-up ===
+age   = 25
+&age  = 0x7ffef375bcf4
+p     = 0x7ffef375bcf4 (same address)
+*p    = 25 (the value at that address)
+After *p = 30: age = 30, *p = 30
+q is NULL, so it is NOT safe to use *q.
+
+=== Part B: swap salaries ===
+Before:          A = 18500.50, B = 21000.75
+After swapWrong: A = 18500.50, B = 21000.75  (nothing changed)
+After swapSalaries: A = 21000.75, B = 18500.50  (swapped!)
+
+=== Part C: arrays passed to functions ===
+Salaries before the raise:
+  Employee 1: N$15000.00
+  Employee 2: N$18500.50
+  Employee 3: N$21000.75
+  Employee 4: N$17200.00
+Highest salary: N$21000.75
+Average salary: N$17925.31
+
+Salaries after a 10% raise (the ORIGINAL array changed):
+  Employee 1: N$16500.00
+  Employee 2: N$20350.55
+  Employee 3: N$23100.83
+  Employee 4: N$18920.00
+New average salary: N$19717.84
+
+=== Part D: update employee records ===
+Test 1 (found): Simon now earns N$19000.00
+Test 2 (not found): no employee with ID 9999.
+Test 3 (first update):  Anna now earns N$22000.00
+Test 3 (second update): Anna now earns N$23500.00
+
+Final records in the array:
+
+--- Employees (3) ---
+ID     Name                 Department       Salary (N$)
+1001   Maria                Finance             18500.50
+1002   Simon                Roads               19000.00
+1003   Anna                 Water               23500.00
